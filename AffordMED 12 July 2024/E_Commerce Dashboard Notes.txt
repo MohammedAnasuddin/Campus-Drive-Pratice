@@ -1,3 +1,6 @@
+
+Backend Setup:
+
 NodeJS LTS : Long Term Support this is the Stable Version
 Check node -v  && npm -v 
 
@@ -8,3 +11,14 @@ moongose to connect nodeJS to mongoDB : npm i mongoose
 nodemon : to execute nodeJS changes easily rather then restarting node
 
 use npx nodemon  to execute
+----------------------------------------------------------------------------------------------
+
+Frontend Setup:
+
+npx create-react-app name
+
+this will create a folder with he name provided
+
+to start reactJS project " npm start "
+
+//Make sure to change directory to where src folder is present " cd/path/"
