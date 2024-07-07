@@ -22,3 +22,50 @@ this will create a folder with he name provided
 to start reactJS project " npm start "
 
 //Make sure to change directory to where src folder is present " cd/path/"
+-----------------------------------------------------------------------------------------------
+Routes in React:
+
+Install router  " npm i react-router-dom " 
+
+To use imported custom component : <component />
+
+creating Links :
+import {Link} from 'react-router-dom';
+
+<Link to="path">Content</Link>
+
+All the components should be browser DOM
+import BrowerRouter from react-router-dom in App.js
+and wrap the elements other than div with <BrowserRouter>
+
+return (  //> return ( ... );: This is the JSX (JavaScript XML) syntax
+    <div className="App">
+      <BrowserRouter>
+      <Nav/> 
+    <h1>Let's GO</h1>
+      </BrowserRouter>
+    </div>
+  );
+
+TIp : component-element is good way to name class i.e, nav-ul
+
+To Creates Routes Import Routes and Route from react-router-dom
+
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
+Then Inside div 
+<Route path="path/to/go" element=componentToGo />
+
+Makesure the path in <Link> and <Route> are same since Link call the Route with same path and displays the component
+
+<li><Link to="/add">Add Product</Link></li>
+<Route path="/add" element={<h1>Add Product Component</h1>} />
+
+To use a element rather than component : element: { <h1>Hello</h1>}
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
