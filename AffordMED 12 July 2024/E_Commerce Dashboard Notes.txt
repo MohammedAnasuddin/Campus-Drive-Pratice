@@ -1,0 +1,10 @@
+NodeJS LTS : Long Term Support this is the Stable Version
+Check node -v  && npm -v 
+
+Intialize package.json in project directory npm init
+
+To install Express : npm i express
+moongose to connect nodeJS to mongoDB : npm i mongoose
+nodemon : to execute nodeJS changes easily rather then restarting node
+
+use npx nodemon  to execute
