@@ -6,13 +6,21 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <div>
-            <ul classname="navUL">   
+            {/* <ul classname="navUL">   
                 <li><Link to="/">Products</Link></li>
                 <li><Link to="/add">Add Product</Link></li>
                 <li><Link to="/update">Update Product</Link></li>
                 <li><Link to="/logout">Logout</Link></li>
                 <li><Link to="/profile">user Profile</Link></li>
-            </ul>
+            </ul> */}
+            <table className='nav-table'>
+            <tc><Link to="/">Products</Link></tc>
+                <tc><Link to="/add">Add Product</Link></tc>
+                <tc><Link to="/update">Update Product</Link></tc>
+                <tc><Link to="/logout">Logout</Link></tc>
+                <tc><Link to="/profile">Profile</Link></tc>
+               
+            </table>
         </div>
     )
 }

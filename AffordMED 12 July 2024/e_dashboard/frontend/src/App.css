@@ -2,11 +2,22 @@
   text-align: center;
 } */
 
-.navUL li{
-display: inline-block;
+.navUL li {
+  display: inline-block;
+  padding: 10px;
 
 }
-
+.nav-table tc{
+  background-color: slategrey;
+  border-radius: 4px;
+  margin:10px;
+  padding: 10px;
+}
+.nav-table tc a{
+  color: lavender;
+  font-weight:bold;
+  text-decoration: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +43,7 @@ display: inline-block;
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
