@@ -63,6 +63,9 @@ Makesure the path in <Link> and <Route> are same since Link call the Route with 
 
 To use a element rather than component : element: { <h1>Hello</h1>}
 -----------------------------------------------------------------------------------------------------------------------------------
+HEader and Footer Styling:
+
+Tip: Do the Styling in the Chrome Dev Tool itself so that you domnt have to reload npm
 
 
 
